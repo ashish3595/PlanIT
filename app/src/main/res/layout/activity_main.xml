@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2bb1ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+    </ListView>
+
+    <Button
+        android:id="@+id/exi"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="19dp"
+        android:background="#ff2bb1ff"
+        android:text="@string/exit_fix"
+        android:textColor="#ffffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/nt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/exi"
+        android:layout_alignBottom="@+id/exi"
+        android:layout_marginRight="22dp"
+        android:layout_toLeftOf="@+id/exi"
+        android:background="#ff2bb1ff"
+        android:text="@string/new_table_fix"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:onClick="tablename"/>
+
+</RelativeLayout>

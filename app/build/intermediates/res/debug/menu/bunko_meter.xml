@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/bminfo" android:orderInCategory="1" android:title="Info" android:showAsAction="never"></item>
+    </menu>
+    
+    
+
+
+<!-- From: file:/home/ashish/Development/AndroidStudioProjects/PlanIT-master/Downloads/RemindUPP1/app/src/main/res/menu/bunko_meter.xml -->

@@ -1,0 +1,2 @@
+/home/ashish/Downloads/PlanIT-master/Downloads/RemindUPP1/app/build/intermediates/classes/debug
+/home/ashish/Downloads/PlanIT-master/Downloads/RemindUPP1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-df0be92de5e53b0764baa35792321a8ee692e15a.jar
